@@ -44,16 +44,16 @@ class _LoginScreenState extends State<LoginScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
-              decoration:
-                  kTextFieldDecoration.copyWith(hintText: 'nter your password'),
+              decoration: kTextFieldDecoration.copyWith(
+                  hintText: 'Enter your password'),
             ),
             SizedBox(
               height: 24.0,
             ),
             RoundedButton(
-              buttonColor: Colors.lightBlueAccent,
-              buttonText: 'Log In',
-              buttonPressed: () {},
+              color: Colors.lightBlueAccent,
+              title: 'Log In',
+              onPressed: () {},
             ),
           ],
         ),
